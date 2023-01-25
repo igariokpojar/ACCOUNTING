@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 @Controller
-@RequestMapping("/users")
+@RequestMapping("/users") // @RequestMapping  - maps the HTTP request
 public class UserController {
 
     private final UserService userService;
